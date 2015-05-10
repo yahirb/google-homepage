@@ -52,6 +52,10 @@ Header
 	position: relative;
 }
 
+.header:last-of-type {
+	border-bottom: 0 solid white;
+}
+
 .header_content {
 	display: inline-block;
 	line-height: 60px;
@@ -80,7 +84,7 @@ Header
 #s_bar {
 	border: 1px solid #0266C8;
 	height: 28px;
-	width: 528px;
+	width: 558px;
 }
 
 .nav {
@@ -141,7 +145,33 @@ Footer
 ========================================
 */
 
+.footer_nav {
+	color: #444;
+	padding: 0 10px;
+	font-size: 13px;
+	margin: 10px 0;
 
+}
+
+.footer {
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	position: relative;
+}
+
+#fuckit {
+	margin-top: 20px;
+}
+
+footer p {
+	font-size: 12px;
+	margin: 10px 0;
+	position: relative;
+	top: 10px;
+}
+
+.content
 /* 
 ========================================
 Content Bar
@@ -159,7 +189,7 @@ li {
 	padding: 0 8px;
 }
 
-li:first-of-type {
+#first_header_term {
 	margin-left: 0;
 	border-bottom: 3px solid #dd4b39;
     color: #dd4b39;
@@ -168,6 +198,7 @@ li:first-of-type {
 ul {
 	padding: 0;
 	margin: 0;
+	width: 600px;
 }
 
 ul:first-child {
@@ -176,18 +207,35 @@ ul:first-child {
 
 .content_bar {
 	background-color: white;
+	position: relative;
 }
 
 #content_button1 {
-	background-image:url(Images/content_button1.png);
-	background-size: 100%;
+	background-image: url(../Images/btn1.png);
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-	width: 52px;
+	width: 82px;
 	height: 27px;
-	display: inline-block;
-	right: 10px;
+	right: 100px;
+	top: 17px;
 	position: absolute;
+	z-index: 2;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+#content_button2 {
+	background-image: url(../Images/content_button2.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	width: 70px;
+	height: 27px;
+	right: 20px;
+	top: 17px;
+	position: absolute;
+	z-index: 2;
+	border: 1px solid rgba(0,0,0,0.1);
 }
 
 
@@ -202,7 +250,7 @@ article p, h2, h3, h4 {
 	margin: 2px auto;
 	padding: 0 auto;
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 article {
@@ -223,7 +271,7 @@ h4 {
 	margin-left: 128px;
 	color: #777;
 	border-bottom: 1px solid #f1f1f1;
-	width: 512px;
+	width: 524px;
 }
 
 /* 
@@ -233,7 +281,31 @@ Related Searches
 */
 
 
+.search_results {
+	padding: 5px 0;
+	margin: 0;
+}
 
+
+.col_search_results {
+	width: 200px;
+	float: left;
+}
+
+#search_header {
+	margin: 8px 0;
+}
+
+#extra_pages {
+	background-image: url(../Images/extra_pages.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	width: 300px;
+	height: 120px;
+	z-index: 2;
+	margin-left: 60px;
+}
 /* 
 ========================================
 Buttons
