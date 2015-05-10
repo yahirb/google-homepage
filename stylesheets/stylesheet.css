@@ -1,0 +1,191 @@
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1280px;
+}
+
+body {
+	color: #444;
+	font-family: Arial;
+	font-size: 12px;
+
+}
+
+
+/* 
+========================================
+Header
+========================================
+*/
+
+nav {
+	text-align: right;
+	height: 60px;
+}
+
+.primary_nav {
+	display: inline-block;
+	line-height: 30px;
+	padding-left: 8px;
+	margin-top: 5px;
+}
+
+.image_nav {
+	width: 25px;
+	height: 25px;
+	margin-left: 4px;
+}
+
+#navicon1 {
+	background-image:url(http://www.marysrosaries.com/collaboration/images/e/ed/Math_Notation_9_Squares_matrix.svg.hi.png);
+	background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#navicon2 {
+	background-image:url(https://lh4.googleusercontent.com/-sqICzrgiWmw/UxZfJAC5-HI/AAAAAAAAAUY/24P98wQIN-c/w1000-h1000/Google-Plus-Notification-Bell.png);
+	background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#navicon3 {
+	background-image:url(http://www.gplusinfo.com/wp-content/uploads/2012/02/google-Plus-icon.png);
+	background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#navicon4 {
+	background-image:url(https://s-media-cache-ak0.pinimg.com/originals/5e/75/93/5e7593d3f16df49853f75c3c1fa1ac7d.jpg);
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text_nav {
+	text-decoration: none;
+	color: #444;
+	font-size: 12px;
+	
+}
+/* 
+========================================
+Footer
+========================================
+*/
+
+.footer {
+	position: absolute;
+	margin-top: 205px;
+	background-color: #f5f5f5;
+	height: 35px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+div a {
+	margin: 10px 5px;
+}
+
+#l_footer {
+	float: left;
+}
+
+#r_footer {
+	float: right;
+}
+
+/* 
+========================================
+Main Content
+========================================
+*/
+
+section {
+	text-align: center;
+}
+
+#logo {
+	height: 95px;
+	width: 269px;
+}
+
+#s_bar {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 1px solid #0266C8;
+	height: 25px;
+	width: 500px;
+}
+
+.btn {
+	border-radius: .5px;
+	display: inline-block;
+	margin: 0;
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0,0,0,0.1);
+	padding: 5px;
+	font-weight: bold;
+	font-size: 9.5px;
+	padding: 7px 6px;
+	color: #444;
+	
+}
+
+.btn:last-of-type {
+	margin-left: 10px;
+}
+
+.section_center {
+	margin-top: 155px;
+}
+/* 
+========================================
+Links
+========================================
+*/
+
+
+a {
+	text-decoration: none;
+	color: #444;
+	padding: 0 5px;
+	vertical-align: middle;
+	display: inline-block;
+
+}
+
+
+
